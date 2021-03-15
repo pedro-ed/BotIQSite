@@ -20,12 +20,12 @@ export function SetConfig() {
         "data":`{
         \n  \"CicloMax\": ${values[0]},
         \n  \"MomentAction\": ${values[1]},
-        \n  \"NConjunts \": ${values[1]},
-        \n  \"profitMin\": ${values[2]},
-        \n  \"reconnectN\": ${values[3]},
-        \n  \"sequenciaAlvo\": ${values[4]},
-        \n  \"timeframe\": ${values[5]},
-        \n  \"valorBase\": ${values[6]}
+        \n  \"NConjunts\": ${values[2]},
+        \n  \"profitMin\": ${values[3]},
+        \n  \"reconnectN\": ${values[4]},
+        \n  \"sequenciaAlvo\": ${values[5]},
+        \n  \"timeframe\": ${values[6]},
+        \n  \"valorBase\": ${values[7]}
         \n}`
     };
       
