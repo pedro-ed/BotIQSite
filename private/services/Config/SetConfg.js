@@ -18,14 +18,14 @@ export function SetConfig() {
           "Content-Type": "application/json"
         },
         "data":`{
-        \n  \"CicloMax\": ${values[0]},
-        \n  \"MomentAction\": ${values[1]},
-        \n  \"NConjunts\": ${values[2]},
-        \n  \"profitMin\": ${values[3]},
-        \n  \"reconnectN\": ${values[4]},
-        \n  \"sequenciaAlvo\": ${values[5]},
-        \n  \"timeframe\": ${values[6]},
-        \n  \"valorBase\": ${values[7]}
+        \n  \"CicloMax\": ${CicloMax},
+        \n  \"MomentAction\": ${MomentAction},
+        \n  \"NConjunts\": ${NConjunts},
+        \n  \"profitMin\": ${profitMin},
+        \n  \"reconnectN\": ${reconnectN},
+        \n  \"sequenciaAlvo\": ${sequenciaAlvo},
+        \n  \"timeframe\":${timeframe},
+        \n  \"valorBase\":${valorBase}
         \n}`
     };
       
