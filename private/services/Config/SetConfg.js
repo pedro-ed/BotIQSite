@@ -7,7 +7,7 @@ export function SetConfig() {
     var sequenciaAlvo = document.getElementById("se").value 
     var timeframe = document.getElementById("tf").value
     var valorBase = document.getElementById("vb").value
-    const values = [CicloMax,MomentAction,profitMin,reconnectN,sequenciaAlvo,timeframe,valorBase]
+    const values = [CicloMax,MomentAction,NConjunts,profitMin,reconnectN,sequenciaAlvo,timeframe,valorBase]
     const settings = {
         "async": false,
         "crossDomain": true,
@@ -20,6 +20,7 @@ export function SetConfig() {
         "data":`{
         \n  \"CicloMax\": ${values[0]},
         \n  \"MomentAction\": ${values[1]},
+        \n  \"NConjunts \": ${values[1]},
         \n  \"profitMin\": ${values[2]},
         \n  \"reconnectN\": ${values[3]},
         \n  \"sequenciaAlvo\": ${values[4]},
