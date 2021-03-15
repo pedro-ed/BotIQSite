@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-size: 100%;
+}
+#loginContainner{
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 10%;
+    background:#212529;
+    box-shadow: black 7px 10px 15px ;
+    
+}
+input{
+    color: rgb(253, 253, 253);
+}
+label{
+    color: rgb(253, 253, 253);
+}
+form{
+    color: rgb(255, 255, 255);
+}
+@media (max-width: 400px) {
+    #loginContainner{
+        width: 90%;
+        margin-left: 5%;
+        margin-top: 40%;
+        height: 80%;
+    }
+   }
+   @media (max-width: 900px) {
+    #loginContainner{
+        width: 90%;
+        margin-left: 5%;
+        margin-top: 20%;
+        height: 80%;
+    }
+   }

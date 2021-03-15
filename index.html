@@ -1,0 +1,29 @@
+<html>
+    <body>
+        <script src="assets/js/core/jquery.min.js"></script>
+        <style>
+            *{
+                margin:0;
+                overflow: hidden;
+
+            }
+            iframe{
+                width: 100%;
+                height: 100%;
+                border: 0;
+            }
+        </style>
+        <script>
+            {
+                var url = window.location.protocol+"//"+window.location.host+"/pages/login/"
+                var el = document.createElement("iframe")
+                el.id = "root"
+                el.src = url  
+                             
+                document.body.appendChild(el)
+                var rootEl = document.querySelector('iframe')
+
+            }
+        </script>
+    </body>
+</html>

@@ -1,0 +1,10 @@
+{
+  "hosting": {
+    "site": "bot-iq",
+    "public": "/",
+    "ignore": [
+      "firebase.json",
+      "**/node_modules/**"
+    ]
+  }
+}
