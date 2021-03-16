@@ -10,8 +10,12 @@ export function UpdateLucroDia() {
         dataType: "json",
         success: function (response) {
             Object.keys(response).forEach(element => {
+                
                 var lucro = response[element]["lucro"]
-                LucroTotal+=lucro
+                var data = response[element]["data"]
+                if (data == hoje) {
+                    LucroTotal+=lucro
+                }
             });
             console.log(LucroTotal)
             document.getElementById(id).innerText = "R$ "+Math.round(LucroTotal*100)/100
